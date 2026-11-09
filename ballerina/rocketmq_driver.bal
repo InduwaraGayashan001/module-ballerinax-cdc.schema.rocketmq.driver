@@ -13,3 +13,13 @@
 // KIND, either express or implied.  See the License for the
 // specific language governing permissions and limitations
 // under the License.
+
+import ballerina/jballerina.java;
+
+function init() {
+    disableFastjsonAsmInNativeImage();
+}
+
+isolated function disableFastjsonAsmInNativeImage() = @java:Method {
+    'class: "io.ballerina.lib.cdc.schema.rocketmq.driver.NativeImageUtils"
+} external;
