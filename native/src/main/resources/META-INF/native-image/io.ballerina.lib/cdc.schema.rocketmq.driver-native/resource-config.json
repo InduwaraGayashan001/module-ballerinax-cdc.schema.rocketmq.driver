@@ -1,5 +1,37 @@
 {
-  "resources":{
-  "includes":[]},
-  "bundles":[]
+  "resources": {
+    "includes": [
+      {
+        "pattern": "\\QMETA-INF/services/org.apache.rocketmq.common.namesrv.TopAddressing\\E"
+      },
+      {
+        "pattern": "\\QMETA-INF/services/org.apache.rocketmq.logging.ch.qos.logback.classic.spi.Configurator\\E"
+      },
+      {
+        "pattern": "\\QMETA-INF/services/org.apache.rocketmq.logging.org.slf4j.spi.SLF4JServiceProvider\\E"
+      },
+      {
+        "pattern": "\\Qrmq.broker.logback.xml\\E"
+      },
+      {
+        "pattern": "\\Qrmq.controller.logback.xml\\E"
+      },
+      {
+        "pattern": "\\Qrmq.logback-test.xml\\E"
+      },
+      {
+        "pattern": "\\Qrmq.logback.xml\\E"
+      },
+      {
+        "pattern": "\\Qrmq.namesrv.logback.xml\\E"
+      },
+      {
+        "pattern": "\\Qrmq.proxy.logback.xml\\E"
+      },
+      {
+        "pattern": "\\Qrmq.tools.logback.xml\\E"
+      }
+    ]
+  },
+  "bundles": []
 }
