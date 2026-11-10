@@ -189,14 +189,14 @@ path = "./lib/annotations-api-6.0.53.jar"
 [[platform.java21.dependency]]
 groupId = "com.google.guava"
 artifactId = "guava"
-version = "32.0.1-jre"
-path = "./lib/guava-32.0.1-jre.jar"
+version = "33.7.2-jre"
+path = "./lib/guava-33.7.2-jre.jar"
 
 [[platform.java21.dependency]]
 groupId = "com.google.guava"
 artifactId = "failureaccess"
-version = "1.0.1"
-path = "./lib/failureaccess-1.0.1.jar"
+version = "1.0.3"
+path = "./lib/failureaccess-1.0.3.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.perfmark"
