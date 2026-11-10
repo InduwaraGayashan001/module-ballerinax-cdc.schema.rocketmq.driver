@@ -13,3 +13,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Upgrade the bundled Debezium RocketMQ schema-history storage to 3.5.1.Final.
 - Fix the RocketMQ schema history in GraalVM native images by adding the required native-image metadata and turning off fastjson's ASM-based class generation, which native images don't support.
+- Upgrade Guava to 33.7.2-jre to address [CVE-2026-102554](https://avd.aquasec.com/nvd/cve-2026-102554).
