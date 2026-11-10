@@ -12,3 +12,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Upgrade the bundled Debezium RocketMQ schema-history storage to 3.5.1.Final.
+- Fix the RocketMQ schema history in GraalVM native images by adding the required native-image metadata and turning off fastjson's ASM-based class generation, which native images don't support.
