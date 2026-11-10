@@ -201,6 +201,11 @@ subprojects {
         // Guava (required by gRPC core and protobuf-java-util)
         externalJars(group: 'com.google.guava', name: 'guava', version: "${guavaVersion}") {
             transitive = false
+            attributes {
+                attribute(Usage.USAGE_ATTRIBUTE, objects.named(Usage, Usage.JAVA_RUNTIME))
+                attribute(TargetJvmEnvironment.TARGET_JVM_ENVIRONMENT_ATTRIBUTE,
+                        objects.named(TargetJvmEnvironment, TargetJvmEnvironment.STANDARD_JVM))
+            }
         }
         externalJars(group: 'com.google.guava', name: 'failureaccess', version: "${failureaccessVersion}") {
             transitive = false
